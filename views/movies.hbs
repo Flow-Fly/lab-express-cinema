@@ -1,0 +1,12 @@
+<div id="main2">
+    <div class="containerGrid">
+        
+        {{#each movie}}
+        <div class="card">
+            <img src="{{this.image}}" alt="{{this.title}} cover picture">
+            <h4>{{this.title}}</h4>
+            <a href="movie/{{this._id}}">See more</a>
+        </div>
+        {{/each}}
+    </div>
+</div>
